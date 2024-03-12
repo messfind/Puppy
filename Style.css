@@ -1,0 +1,26 @@
+.blueBG {
+    background-color: green;
+ text-align: center;
+   color: white;
+   font-size: 40px;
+}
+.missing {
+    background-color: red;
+    font-size: 25px;
+}
+@media (min-width: 992px) {
+    .missing p {
+        font-size: 45px;
+        background-color: purple;
+    }
+}
+@media (min-width: 760px) {
+    .blueBG {
+     background-color: yellow;
+}
+@media (min-width: 992px) {
+    .blueBG {
+       background-color: red;
+    }
+}
+}
